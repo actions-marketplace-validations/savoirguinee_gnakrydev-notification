@@ -1,4 +1,4 @@
-author: "AlexRogalskiy"
+author: "SAVOIR-GUINEE"
 name: "gnakrydev notification"
 description: "Push message to the Gnakrydev Mobile app"
 branding:
@@ -31,5 +31,5 @@ runs:
 
 outputs:
   notification: # id of output
-    description: "The time we greeted you"
+    description: "MESSAGE"
     value: "message sent"
