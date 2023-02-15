@@ -1,6 +1,9 @@
 author: "AlexRogalskiy"
 name: "gnakrydev notification"
 description: "Push message to the Gnakrydev Mobile app"
+branding:
+  icon: "info"
+  color: "yellow"
 inputs:
   apiKey: # id of input
     description: "Who to greet"
@@ -15,7 +18,6 @@ inputs:
   type: # organization secret
     description: "Secret defined at Org. level"
     default: "info"
-    required: true
 runs:
   using: "composite"
   steps:
